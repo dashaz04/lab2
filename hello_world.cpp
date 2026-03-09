@@ -1,12 +1,14 @@
 #include <iostream>
 #include <string>
 
-int main(){
-//переменная имени:
-string name;
-std::cout << "Введите имя: ";  
-//ввод имени:
-std::cin >> name; 
-std::cout<<"Hello World from " << name << "!" << std::endl; //вывод предложения
-return 0;
+
+int
+main()
+{
+  string name; // переменная имени
+  std::cout << "Введите имя: ";
+  std::cin >> name; // ввод имени
+  std::cout << "Hello World from " << name << "!"
+            << std::endl; // вывод предложения
+  return 0;
 }
