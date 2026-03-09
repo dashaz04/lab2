@@ -2,9 +2,11 @@
 #include <string>
 
 int main(){
-string name; //переменная имени
+//переменная имени:
+string name;
 std::cout << "Введите имя: ";  
-std::cin >> name;   //ввод имени
+//ввод имени:
+std::cin >> name; 
 std::cout<<"Hello World from " << name << "!" << std::endl; //вывод предложения
 return 0;
 }
