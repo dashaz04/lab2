@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
-using namespace std;
+
 int main(){
-string name;
-cout << "Введите имя: ";
-cin >> name;
-cout<<"Hello World from " << name << "!" << endl;
+string name; //переменная имени
+std::cout << "Введите имя: ";  
+std::cin >> name;   //ввод имени
+std::cout<<"Hello World from " << name << "!" << std::endl; //вывод предложения
 return 0;
 }
